@@ -229,7 +229,7 @@ end
 fprintf('number of terms is  %i and the sum is %i\n',k,sum)
 
 
-Q22
+%Q22
 x=1:6;
 y1=[11 13 8 7 5 9];
 y2=[2 4 5 3 2 4];
