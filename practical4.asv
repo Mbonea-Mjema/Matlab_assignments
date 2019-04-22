@@ -39,13 +39,13 @@ clc
 % disp(maxAns)
 
 
-%Q5
-x=[-2 -0.5 1 2.5];
-y=[-3.4 5.525 16.7 70.625];
-eq=polyfit(x,y,3);
-disp('The values are')
-disp(eq)
-
+% %Q5
+% x=[-2 -0.5 1 2.5];
+% y=[-3.4 5.525 16.7 70.625];
+% eq=polyfit(x,y,3);
+% disp('The values are')
+% disp(eq)
+% 
 
 % % y=polyval(eq,-3:0.5:4);
 % % plot(-3:0.5:4,y,'*-');
@@ -78,11 +78,32 @@ disp(eq)
 
 
 
+
+
 %Q8
 
 
 
+% %Q9
+% degree=input('Enter the degree\n');
+% radius = 2*(1.1-(sin(degree))^2);
+% disp('Answer is')
+% disp(radius)
 
-
-
-
+% %Q13
+% 
+% k=0.047:0.01:0.107;
+% a=1;
+% t=1;
+% c= (a./k).*(1-exp(-k*t));
+% disp('Concentration is ')
+% disp(c)
+% 
+%Q14
+p= [19, 18, 22, 21, 25, 19, 17, 21, 27, 29]';
+count=0;
+for i =p
+    if i>20
+        count=count+1;
+    end
+end
